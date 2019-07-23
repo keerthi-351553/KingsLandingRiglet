@@ -4,7 +4,7 @@ const express = require("express");
 const router = express.Router();
 
 const varTitle = process.env.TITLE || "Sample NodeJs deployed by DigitalRig";
-const varMessage = process.env.MESSAGE || "Hello world!";
+const varMessage = process.env.MESSAGE || "Hello World!";
 
 /* GET home page. */
 router.get("/", (req, res, next) => {
